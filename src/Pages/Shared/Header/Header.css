@@ -1,0 +1,53 @@
+.headerBg {
+  z-index: 0;
+  position: relative;
+}
+.box {
+  position: absolute;
+  bottom: -45%;
+  right: 5%;
+  /* background-color: rgb(34, 33, 33); */
+  color: #fff;
+  border-radius: 35px;
+  width: 90%;
+  margin: auto;
+}
+@media only screen and (max-width: 765px) {
+  .box {
+    margin-top: 30%;
+    bottom: -85%;
+  }
+  .profileImage {
+    border: rgb(34, 33, 33) solid 0.5rem;
+    width: 50% !important;
+    margin-top: -6%;
+    border-radius: 19px;
+  }
+  .rigthBorder {
+    border-right: 0px !important;
+  }
+}
+.profileImage {
+  border: rgb(34, 33, 33) solid 0.5rem;
+  width: 100%;
+  margin-top: -46%;
+  border-radius: 19px;
+}
+.rigthBorder {
+  border-right: rgb(0 0 0) solid 1px;
+}
+.social Button {
+  background: linear-gradient(to left top, #212428, #16181c);
+  transition: background ease-in-out 0.5s;
+  overflow: hidden;
+}
+.social Button:hover {
+  background: linear-gradient(to right bottom, #212428, #16181c);
+}
+.social Button a svg {
+  transition: all ease-in-out 0.3s;
+  transform: scale(1.1);
+}
+.social Button:hover a svg {
+  transform: scale(2.2);
+}

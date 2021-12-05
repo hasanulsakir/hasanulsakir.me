@@ -1,0 +1,15 @@
+.aboutImg{
+    border-radius: 15px;
+}
+.aboutImg img{
+    border-radius: 15px;
+width: 100%;
+object-fit: cover;
+object-position: center;
+}
+.aboutImg:hover img{
+overflow: scroll;
+}
+.textJustify{
+    text-align: justify;
+}

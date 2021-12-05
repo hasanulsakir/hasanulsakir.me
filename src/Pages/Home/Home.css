@@ -1,0 +1,38 @@
+.homeContent {
+  margin-top: 15%;
+}
+
+@media only screen and (max-width: 765px) {
+  .homeContent {
+    margin-top: 60%;
+  }
+  .navMobileMenu {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 0px;
+    margin-bottom: 7%;
+    padding: 0px;
+  }
+  .navMobileMenu div a {
+    font-size: 1rem !important;
+    padding: 1.5rem 1rem !important;
+  }
+}
+.navMobileMenu div a {
+  font-size: 1.5rem;
+}
+.homeBox {
+  /* color: #fff; */
+  width: 90%;
+  margin: auto;
+  margin-bottom: 5%;
+}
+.navHover {
+  transition: all ease-in-out 0.5s;
+}
+.navHover:hover {
+  background-color: #dc3545;
+  color: #ffffff;
+}
