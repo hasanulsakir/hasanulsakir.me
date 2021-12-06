@@ -12,10 +12,13 @@
   width: 90%;
   margin: auto;
 }
+ .profileImage{
+   height: 60%;
+ }
 @media only screen and (max-width: 765px) {
   .box {
     margin-top: 30%;
-    bottom: -85%;
+    bottom: -55% !important;
   }
   .profileImage {
     border: rgb(34, 33, 33) solid 0.5rem;
@@ -25,6 +28,9 @@
   }
   .rigthBorder {
     border-right: 0px !important;
+  }
+  .headerText{
+    font-size: .7rem;
   }
 }
 .profileImage {

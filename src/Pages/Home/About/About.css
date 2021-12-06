@@ -13,3 +13,21 @@ overflow: scroll;
 .textJustify{
     text-align: justify;
 }
+.cardBox{
+    border: rgb(20, 20, 20) solid 1px;
+    border-radius: 10px;
+    width: 95%;
+    margin: auto;
+}
+@media only screen and (max-width: 765px) {
+    .fontSM{
+        font-size: 1.2rem !important;
+        margin: 0px 2px !important;
+    }
+    .cardBox{
+    border: rgb(20, 20, 20) solid 1px;
+    border-radius: 10px;
+    width: 100%;
+    margin: auto;
+}
+}

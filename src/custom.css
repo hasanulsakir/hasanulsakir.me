@@ -9,12 +9,17 @@
 .boxBg {
   background-color: #242424;
 }
-
+.bodyBg{
+  
+  background: rgb(27, 27, 27);
+}
 
 .boxBackground {
   background: linear-gradient(to left top, #212428, #16181c);
   transition: all ease-in-out 0.5s;
-  border: #000 solid 5px;
+  /* border: #000 solid 5px; */
+  border-radius: 0;
+  border: 0;
 
 }
 .boxBackground:hover {

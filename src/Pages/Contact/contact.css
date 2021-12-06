@@ -1,0 +1,26 @@
+.contactBox{
+    border-radius: 19px;
+    overflow: hidden;
+    transition: all ease-in-out 1s;
+} 
+.aboutImgBox{
+    overflow: hidden;
+    border-radius: 19px;
+}
+ .aboutImage {
+    border: rgb(34, 33, 33) solid 0.5rem;
+    width: 100% !important;
+    border-radius: 19px;
+    overflow: hidden;
+    transition: all ease-in-out .5s;
+  }
+  .contactBox:hover .aboutImage{
+      transform: scale(1.1);
+      cursor: pointer;
+  }
+  .form-control{
+      border-radius: 0px;
+  }
+  .form-control:focus{
+      border: solid 1px rgb(255, 0, 85) ;
+  }

@@ -22,7 +22,7 @@ const Home = () => {
                     <Container fluid>
                         <Row>
                             <Col xs="12" sm="12" md="2" xl="2">
-                                <ScrollAnimation animateIn="animate__slideInLeft" animateOut="animate__slideOutLeft">
+                                <ScrollAnimation animateIn="animate__fadeIn" animateOut="animate__fadeOut">
                                     <div className="navMobileMenu boxBg shadow-lg rounded-3 text-decoration-none">
 
                                         <div>
@@ -35,9 +35,9 @@ const Home = () => {
                                         <div>
                                             <NavLink to="/myproject" className={({ isActive }) => isActive ? "bg-danger d-block rounded-3 text-decoration-none fw-bold  text-color px-3 py-5" : "d-block text-decoration-none fw-bold  text-color px-3 py-5 rounded-3   navHover "}>Work</NavLink>
                                         </div>
-                                        <div>
+                                        {/* <div>
                                             <NavLink to="/service" className={({ isActive }) => isActive ? "bg-danger d-block rounded-3 text-decoration-none fw-bold  text-color px-3 py-5" : "d-block text-decoration-none fw-bold  text-color px-3 py-5 rounded-3  navHover"}>Service</NavLink>
-                                        </div>
+                                        </div> */}
                                         <div>
                                             <NavLink to="/contact" className={({ isActive }) => isActive ? "bg-danger d-block rounded-3 text-decoration-none fw-bold  text-color px-3 py-5" : "d-block text-decoration-none fw-bold  text-color px-3 py-5 rounded-3  navHover"}>Contact</NavLink>
                                         </div>

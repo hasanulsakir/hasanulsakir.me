@@ -75,7 +75,7 @@ const Header = () => {
                             </Col>
                             <Col xs="12" sm="12" md="5" xl="5" className="text-start d-flex align-items-center">
                                 <ScrollAnimation animateIn="animate__fadeIn" animateOut="animate_fadeOut">
-                                    <div className="d-flex align-items-center ">
+                                    <div className="d-flex headerText align-items-center ">
                                         <div className="mx-4">
                                             <div >
                                                 <p className="pb-0 mb-0 text-uppercase">

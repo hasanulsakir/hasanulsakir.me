@@ -4,7 +4,7 @@
 
 @media only screen and (max-width: 765px) {
   .homeContent {
-    margin-top: 60%;
+    margin-top: 80%;
   }
   .navMobileMenu {
     display: flex;
@@ -16,7 +16,7 @@
     padding: 0px;
   }
   .navMobileMenu div a {
-    font-size: 1rem !important;
+    font-size: .6rem !important;
     padding: 1.5rem 1rem !important;
   }
 }
